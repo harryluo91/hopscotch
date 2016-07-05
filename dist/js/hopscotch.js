@@ -2457,7 +2457,7 @@ var _ = {};
  */
 _.escape = function(str){
   if(customEscape){ return customEscape(str); }
-  
+
   if(str == null) return '';
   return ('' + str).replace(new RegExp('[&<>"\']', 'g'), function(match){
     if(match == '&'){ return '&amp;' }
@@ -2527,9 +2527,7 @@ __p += '<button class="hopscotch-nav-button prev hopscotch-prev" name="hopscotch
  } ;
 __p += '\n  </div>\n  ';
  if(buttons.showClose){ ;
-__p += '<div class="hopscotch-close bl bl-x"></div>' +
-((__t = ( i18n.closeTooltip )) == null ? '' : __t) +
-'</button>';
+__p += '<div class="hopscotch-close bl bl-x"></div>'
  } ;
 __p += '\n</div>\n<div class="hopscotch-bubble-arrow-container hopscotch-arrow">\n  <div class="hopscotch-bubble-arrow-border"></div>\n  <div class="hopscotch-bubble-arrow" style="' +
 ((__t = ( step.customData.borderStyle )) == null ? '' : __t) +
