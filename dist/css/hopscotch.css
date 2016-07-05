@@ -534,8 +534,7 @@ div.hopscotch-bubble .hopscotch-actions:before {
 }
 div.hopscotch-bubble .hopscotch-actions .steps-indicator {
   display: inline-block;
-  margin-right: 58px;
-  line-height: 24px;
+  line-height: 26px;
 }
 div.hopscotch-bubble .hopscotch-actions .hopscotch-nav-button.next {
   float: right;
@@ -546,5 +545,6 @@ div.hopscotch-bubble .hopscotch-actions .hopscotch-nav-button.next {
   margin-left: 5px;
 }
 div.hopscotch-bubble .hopscotch-actions .hopscotch-nav-button.prev {
+  float: right;
   background-image: none;
 }

@@ -2509,25 +2509,25 @@ __p += '<div class="steps-indicator">Step ' +
  } ;
 __p += '\n    ';
  if(buttons.showCTA){ ;
-__p += '<button class="hopscotch-nav-button next hopscotch-cta">' +
+__p += '<button class="hopscotch-nav-button next hopscotch-cta" name="hopscotch-next-button">' +
 ((__t = ( buttons.ctaLabel )) == null ? '' : __t) +
 '</button>';
  } ;
 __p += '\n    ';
  if(buttons.showNext){ ;
-__p += '<button class="hopscotch-nav-button next hopscotch-next">' +
+__p += '<button class="hopscotch-nav-button next hopscotch-next" name="hopscotch-next-button">' +
 ((__t = ( i18n.nextBtn )) == null ? '' : __t) +
 '</button>';
  } ;
 __p += '\n    ';
  if(buttons.showPrev){ ;
-__p += '<button class="hopscotch-nav-button prev hopscotch-prev">' +
+__p += '<button class="hopscotch-nav-button prev hopscotch-prev" name="hopscotch-prev-button">' +
 ((__t = ( i18n.prevBtn )) == null ? '' : __t) +
 '</button>';
  } ;
 __p += '\n  </div>\n  ';
  if(buttons.showClose){ ;
-__p += '<button class="hopscotch-bubble-close hopscotch-close">' +
+__p += '<button class="hopscotch-bubble-close hopscotch-close" name="hopscotch-close-button">' +
 ((__t = ( i18n.closeTooltip )) == null ? '' : __t) +
 '</button>';
  } ;
