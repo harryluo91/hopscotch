@@ -406,7 +406,8 @@ div.hopscotch-bubble .hopscotch-bubble-close {
   appearance: none;
   border: 0;
   color: #000;
-  background: transparent url(../img/sprite-green.png) -192px -92px no-repeat;
+  background: transparent url(../Icons/x.svg) 5px 5px no-repeat;
+  background-size: 13px;
   display: block;
   padding: 8px;
   position: absolute;
@@ -422,7 +423,7 @@ div.hopscotch-bubble .hopscotch-bubble-close.hide-all {
   display: none;
 }
 div.hopscotch-bubble .hopscotch-bubble-number {
-  background: transparent url(../img/sprite-green.png) 0 0 no-repeat;
+  background: transparent url(../Icons/x.svg) 0 0 no-repeat;
   color: #fff;
   display: block;
   float: left;
@@ -540,5 +541,10 @@ div.hopscotch-bubble .hopscotch-actions .hopscotch-nav-button.next {
   background-color: #061f5c;
   border-color: #061f5c;
   color: #ffffff;
+  background-image: none;
+  margin-left: 5px;
+}
+div.hopscotch-bubble .hopscotch-actions .hopscotch-nav-button.prev {
+  float: right;
   background-image: none;
 }
