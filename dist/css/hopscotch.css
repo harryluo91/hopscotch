@@ -422,6 +422,12 @@ div.hopscotch-bubble .hopscotch-bubble-close.hide,
 div.hopscotch-bubble .hopscotch-bubble-close.hide-all {
   display: none;
 }
+div.hopscotch-bubble .hopscotch-close {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+}
 div.hopscotch-bubble .hopscotch-bubble-number {
   background: transparent url(../Icons/x.svg) 0 0 no-repeat;
   color: #fff;

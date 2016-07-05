@@ -2527,7 +2527,7 @@ __p += '<button class="hopscotch-nav-button prev hopscotch-prev" name="hopscotch
  } ;
 __p += '\n  </div>\n  ';
  if(buttons.showClose){ ;
-__p += '<button class="hopscotch-bubble-close hopscotch-close" name="hopscotch-close-button">' +
+__p += '<div class="hopscotch-close bl bl-x"></div>' +
 ((__t = ( i18n.closeTooltip )) == null ? '' : __t) +
 '</button>';
  } ;
