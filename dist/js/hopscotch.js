@@ -2508,12 +2508,6 @@ __p += '<div class="steps-indicator">Step ' +
 '</div>';
  } ;
 __p += '\n    ';
- if(buttons.showPrev){ ;
-__p += '<button class="hopscotch-nav-button prev hopscotch-prev">' +
-((__t = ( i18n.prevBtn )) == null ? '' : __t) +
-'</button>';
- } ;
-__p += '\n    ';
  if(buttons.showCTA){ ;
 __p += '<button class="hopscotch-nav-button next hopscotch-cta">' +
 ((__t = ( buttons.ctaLabel )) == null ? '' : __t) +
@@ -2525,13 +2519,23 @@ __p += '<button class="hopscotch-nav-button next hopscotch-next">' +
 ((__t = ( i18n.nextBtn )) == null ? '' : __t) +
 '</button>';
  } ;
+__p += '\n    ';
+ if(buttons.showPrev){ ;
+__p += '<button class="hopscotch-nav-button prev hopscotch-prev">' +
+((__t = ( i18n.prevBtn )) == null ? '' : __t) +
+'</button>';
+ } ;
 __p += '\n  </div>\n  ';
  if(buttons.showClose){ ;
 __p += '<button class="hopscotch-bubble-close hopscotch-close">' +
 ((__t = ( i18n.closeTooltip )) == null ? '' : __t) +
 '</button>';
  } ;
-__p += '\n</div>\n<div class="hopscotch-bubble-arrow-container hopscotch-arrow">\n  <div class="hopscotch-bubble-arrow-border"></div>\n  <div class="hopscotch-bubble-arrow"></div>\n</div>\n';
+__p += '\n</div>\n<div class="hopscotch-bubble-arrow-container hopscotch-arrow">\n  <div class="hopscotch-bubble-arrow-border"></div>\n  <div class="hopscotch-bubble-arrow" style="' +
+((__t = ( step.customData.borderStyle )) == null ? '' : __t) +
+': ' +
+((__t = ( step.customData.borderColor )) == null ? '' : __t) +
+';"></div>\n</div>\n';
 
 }
 return __p
