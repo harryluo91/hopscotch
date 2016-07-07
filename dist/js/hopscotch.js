@@ -80,7 +80,7 @@
     showCloseButton: true,
     showPrevButton:  false,
     showNextButton:  true,
-    bubbleWidth:     280,
+    bubbleWidth:     320,
     bubblePadding:   15,
     arrowWidth:      20,
     skipIfNoElement: true,
